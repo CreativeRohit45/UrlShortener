@@ -1,0 +1,6 @@
+# docker-compose.yml
+services:
+  url-shortener:
+    image: creativerohit/urlshortener:latest
+    ports:
+      - "9000:3000"
